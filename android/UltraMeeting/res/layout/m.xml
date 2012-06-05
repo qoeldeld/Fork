@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:background="@drawable/ione">
+<ImageButton android:id="@+id/bt1" android:background="@drawable/im1" android:layout_height="116dp" android:layout_width="120dp" android:layout_x="0dp" android:layout_y="3dp"></ImageButton>
+<ImageButton android:id="@+id/bt2" android:background="@drawable/im2" android:layout_height="116dp" android:layout_width="120dp" android:layout_x="-9dp" android:layout_y="127dp"></ImageButton>
+<ImageButton android:id="@+id/bt5" android:background="@drawable/im5" android:layout_height="116dp" android:layout_width="120dp" android:layout_x="204dp" android:layout_y="134dp"></ImageButton>
+<ImageButton android:id="@+id/bt4" android:background="@drawable/im4" android:layout_height="116dp" android:layout_width="129dp" android:layout_x="195dp" android:layout_y="16dp"></ImageButton>
+<ImageButton android:id="@+id/bt3" android:background="@drawable/im3" android:layout_height="130dp" android:layout_width="121dp" android:layout_x="1dp" android:layout_y="260dp"></ImageButton>
+<ImageButton android:id="@+id/bt7" android:background="@drawable/im7" android:layout_height="116dp" android:layout_width="120dp" android:layout_x="199dp" android:layout_y="271dp"></ImageButton>
+<ImageButton android:id="@+id/bt11" android:background="@drawable/feel" android:layout_height="40dp" android:layout_width="40dp" android:layout_x="280dp" android:layout_y="490dp"></ImageButton>
+
+</AbsoluteLayout>
