@@ -13,3 +13,15 @@ android:background="@drawable/ione">
 <ImageButton android:id="@+id/bt11" android:background="@drawable/feel" android:layout_height="40dp" android:layout_width="40dp" android:layout_x="280dp" android:layout_y="490dp"></ImageButton>
 
 </AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+
+
