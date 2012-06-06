@@ -1,27 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout01"
+        android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	        android:background="@drawable/tom" >
+		    
+		        <com.google.android.maps.MapView
+			        android:id="@+id/mapview"
+				        android:layout_width="324dp"
+					        android:layout_height="407dp"
+						        android:layout_x="-2dp"
+							        android:layout_y="-3dp"
+								        android:apiKey="0qCVX1VQ6j0hZRlhCgsBrCN9EJ_0wKDscmgm-DA"
+									        android:clickable="true" >
+										    </com.google.android.maps.MapView>
+										            <ImageButton android:layout_height="100dp" android:id="@+id/bbt" android:background="@drawable/g1" android:layout_width="100dp" android:layout_x="-22dp" android:layout_y="392dp"></ImageButton>
+											            <ImageButton android:layout_height="100dp" android:id="@+id/fbt" android:background="@drawable/g2" android:layout_width="100dp" android:layout_x="50dp" android:layout_y="391dp"></ImageButton>
+												            <ImageButton android:layout_height="100dp" android:id="@+id/bt1" android:background="@drawable/g3" android:layout_width="100dp" android:layout_x="136dp" android:layout_y="392dp"></ImageButton>
+													            <ImageButton android:layout_height="90dp" android:id="@+id/bt2" android:background="@drawable/g4" android:layout_width="90dp" android:layout_x="228dp" android:layout_y="397dp"></ImageButton>
 
-<AbsoluteLayout android:layout_width="fill_parent" 
-android:layout_height="fill_parent" 
-xmlns:android="http://schemas.android.com/apk/res/android" 
-android:background="@drawable/ione">
-<ImageButton android:id="@+id/bt1" android:background="@drawable/im1" android:layout_height="116dp" android:layout_width="120dp" android:layout_x="0dp" android:layout_y="3dp"></ImageButton>
-<ImageButton android:id="@+id/bt2" android:background="@drawable/im2" android:layout_height="116dp" android:layout_width="120dp" android:layout_x="-9dp" android:layout_y="127dp"></ImageButton>
-<ImageButton android:id="@+id/bt5" android:background="@drawable/im5" android:layout_height="116dp" android:layout_width="120dp" android:layout_x="204dp" android:layout_y="134dp"></ImageButton>
-<ImageButton android:id="@+id/bt4" android:background="@drawable/im4" android:layout_height="116dp" android:layout_width="129dp" android:layout_x="195dp" android:layout_y="16dp"></ImageButton>
-<ImageButton android:id="@+id/bt3" android:background="@drawable/im3" android:layout_height="130dp" android:layout_width="121dp" android:layout_x="1dp" android:layout_y="260dp"></ImageButton>
-<ImageButton android:id="@+id/bt7" android:background="@drawable/im7" android:layout_height="116dp" android:layout_width="120dp" android:layout_x="199dp" android:layout_y="271dp"></ImageButton>
-<ImageButton android:id="@+id/bt11" android:background="@drawable/feel" android:layout_height="40dp" android:layout_width="40dp" android:layout_x="280dp" android:layout_y="490dp"></ImageButton>
+														            <ImageButton
+															                android:id="@+id/hbt"
+																	            android:layout_width="wrap_content"
+																		                android:layout_height="wrap_content"
+																				            android:layout_x="0dp"
+																					                android:layout_y="-10dp"
+																							            android:background="@drawable/hbt" />
 
-</AbsoluteLayout>
+																								            <ImageButton
+																									                android:id="@+id/rbt"
+																											            android:layout_width="wrap_content"
+																												                android:layout_height="wrap_content"
+																														            android:layout_x="261dp"
+																															                android:layout_y="-10dp"
+																																	            android:background="@drawable/rbt" />
 
-
-
-
-
-
-
-
-
-
-
-
+																																		    </AbsoluteLayout>
