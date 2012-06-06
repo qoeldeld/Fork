@@ -1,0 +1,37 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout01"
+        android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	        android:background="@drawable/tom" >
+		    
+		        <com.google.android.maps.MapView
+			        android:id="@+id/mapview"
+				        android:layout_width="324dp"
+					        android:layout_height="407dp"
+						        android:layout_x="-2dp"
+							        android:layout_y="-3dp"
+								        android:apiKey="0qCVX1VQ6j0hZRlhCgsBrCN9EJ_0wKDscmgm-DA"
+									        android:clickable="true" >
+										    </com.google.android.maps.MapView>
+										            <ImageButton android:layout_height="100dp" android:id="@+id/bbt" android:background="@drawable/g1" android:layout_width="100dp" android:layout_x="-22dp" android:layout_y="392dp"></ImageButton>
+											            <ImageButton android:layout_height="100dp" android:id="@+id/fbt" android:background="@drawable/g2" android:layout_width="100dp" android:layout_x="50dp" android:layout_y="391dp"></ImageButton>
+												            <ImageButton android:layout_height="100dp" android:id="@+id/bt1" android:background="@drawable/g3" android:layout_width="100dp" android:layout_x="136dp" android:layout_y="392dp"></ImageButton>
+													            <ImageButton android:layout_height="90dp" android:id="@+id/bt2" android:background="@drawable/g4" android:layout_width="90dp" android:layout_x="228dp" android:layout_y="397dp"></ImageButton>
+
+														            <ImageButton
+															                android:id="@+id/hbt"
+																	            android:layout_width="wrap_content"
+																		                android:layout_height="wrap_content"
+																				            android:layout_x="0dp"
+																					                android:layout_y="-10dp"
+																							            android:background="@drawable/hbt" />
+
+																								            <ImageButton
+																									                android:id="@+id/rbt"
+																											            android:layout_width="wrap_content"
+																												                android:layout_height="wrap_content"
+																														            android:layout_x="261dp"
+																															                android:layout_y="-10dp"
+																																	            android:background="@drawable/rbt" />
+
+																																		    </AbsoluteLayout>
