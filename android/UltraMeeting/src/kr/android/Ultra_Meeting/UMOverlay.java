@@ -5,10 +5,10 @@ import android.graphics.drawable.Drawable;
 import com.google.android.maps.ItemizedOverlay;
 import com.google.android.maps.OverlayItem;
 
-public class HelloOverlay extends ItemizedOverlay<OverlayItem> {
+public class UMOverlay extends ItemizedOverlay<OverlayItem> {
 	private ArrayList<OverlayItem> alist = new ArrayList<OverlayItem>();
 
-		public HelloOverlay(Drawable drawable) {
+		public UMOverlay(Drawable drawable) {
 
 				// 그림자를 그리기 위함
 						super(boundCenterBottom(drawable));

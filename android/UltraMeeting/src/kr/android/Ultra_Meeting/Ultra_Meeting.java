@@ -4,11 +4,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.Window;
 import android.view.WindowManager;
-import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -39,7 +38,7 @@ public class Ultra_Meeting extends Activity{
 																																														Toast.makeText(getBaseContext(), "비밀번호를 입력하세요.", 1).show();
 																																																		}
 																																																						else {
-																																																											Intent intent = new Intent(Ultra_Meeting.this, m.class);
+																																																											Intent intent = new Intent(Ultra_Meeting.this, menu.class);
 																																																																Bundle myData = new Bundle();
 																																																																					myData.putString("key", textView.getText().toString());
 																																																																										intent.putExtras(myData);
