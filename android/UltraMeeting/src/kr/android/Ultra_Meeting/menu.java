@@ -1,8 +1,10 @@
 package kr.android.Ultra_Meeting;
 
+import kr.android.Ultra_Meeting.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -45,7 +47,7 @@ public class menu extends Activity implements OnClickListener{
 																																																											        				break;
 																																																																	        				
 																																																																							        			case R.id.bt2:
-																																																																												        				Intent i2 = new Intent(menu.this, ready.class);
+																																																																												        				Intent i2 = new Intent(menu.this, group_chatting.class);
 																																																																																		        				startActivity(i2);
 																																																																																								        				break;
 																																																																																														        				
@@ -55,7 +57,7 @@ public class menu extends Activity implements OnClickListener{
 																																																																																																																					        				break;
 																																																																																																																											        				
 																																																																																																																																	        			case R.id.bt4:
-																																																																																																																																						        				Intent i4 = new Intent(menu.this, ready.class);
+																																																																																																																																						        				Intent i4 = new Intent(menu.this, file_backup.class);
 																																																																																																																																												        				startActivity(i4);
 																																																																																																																																																		        				break;
 																																																																																																																																																								        			
