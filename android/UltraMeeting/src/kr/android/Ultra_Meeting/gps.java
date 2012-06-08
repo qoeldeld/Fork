@@ -1,3 +1,4 @@
+/*
 package kr.android.Ultra_Meeting;
 
 import java.io.*;
@@ -142,3 +143,4 @@ public class gps extends MapActivity implements OnClickListener {
 																																																																																																																																																																																																																								}
 
 																																																																																																																																																																																																																								}
+																																																																																																																																																																																																																								*/

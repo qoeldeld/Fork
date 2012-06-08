@@ -11,10 +11,10 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 
-public class data_sharing extends Activity {
+public class group_chatting extends Activity {
     private WebView myWebView;
         
-	    final private String DEFAULT_URL = "https://groups.google.com/d/forum/ultrameeting";
+	    final private String DEFAULT_URL = "http://www.gagalive.kr/livechat1.swf?chatroom=~~~ultrameeting2012";
 	        private static final FrameLayout.LayoutParams ZOOM_PARAMS = new FrameLayout.LayoutParams(
 		            ViewGroup.LayoutParams.FILL_PARENT,
 			                ViewGroup.LayoutParams.WRAP_CONTENT,
@@ -28,7 +28,7 @@ public class data_sharing extends Activity {
 									        super.onCreate(savedInstanceState);
 										        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 											        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-												        setContentView(R.layout.data_sharing);
+												        setContentView(R.layout.group_chatting);
 													        myWebView = (WebView)this.findViewById(R.id.webView);
 														        myWebView.getSettings().setJavaScriptEnabled(true);
 															        FrameLayout mContentView = (FrameLayout)getWindow().getDecorView().findViewById(android.R.id.content);
