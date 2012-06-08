@@ -13,25 +13,25 @@
 								        android:apiKey="0qCVX1VQ6j0hZRlhCgsBrCN9EJ_0wKDscmgm-DA"
 									        android:clickable="true" >
 										    </com.google.android.maps.MapView>
-										            <ImageButton android:layout_height="100dp" android:id="@+id/bt3" android:background="@drawable/g1" android:layout_width="100dp" android:layout_x="-22dp" android:layout_y="392dp"></ImageButton>
-											            <ImageButton android:layout_height="100dp" android:id="@+id/bt4" android:background="@drawable/g2" android:layout_width="100dp" android:layout_x="50dp" android:layout_y="391dp"></ImageButton>
-												            <ImageButton android:layout_height="100dp" android:id="@+id/bt5" android:background="@drawable/g3" android:layout_width="100dp" android:layout_x="136dp" android:layout_y="392dp"></ImageButton>
-													            <ImageButton android:layout_height="90dp" android:id="@+id/bt6" android:background="@drawable/g4" android:layout_width="90dp" android:layout_x="228dp" android:layout_y="397dp"></ImageButton>
+										            <ImageButton android:layout_height="100dp" android:id="@+id/bt5" android:background="@drawable/g3" android:layout_width="100dp" android:layout_x="136dp" android:layout_y="392dp"></ImageButton>
 
-														            <ImageButton
-															                android:id="@+id/bt1"
-																	            android:layout_width="wrap_content"
-																		                android:layout_height="wrap_content"
-																				            android:layout_x="0dp"
-																					                android:layout_y="-10dp"
-																							            android:background="@drawable/hbt" />
+											            <ImageButton
+												                android:id="@+id/bt1"
+														            android:layout_width="wrap_content"
+															                android:layout_height="wrap_content"
+																	            android:layout_x="0dp"
+																		                android:layout_y="-10dp"
+																				            android:background="@drawable/hbt" />
 
-																								            <ImageButton
-																									                android:id="@+id/bt2"
-																											            android:layout_width="wrap_content"
-																												                android:layout_height="wrap_content"
-																														            android:layout_x="261dp"
-																															                android:layout_y="-10dp"
-																																	            android:background="@drawable/rbt" />
+																					            <ImageButton
+																						                android:id="@+id/bt2"
+																								            android:layout_width="wrap_content"
+																									                android:layout_height="wrap_content"
+																											            android:layout_x="261dp"
+																												                android:layout_y="-10dp"
+																														            android:background="@drawable/rbt" />
+																															            <ImageButton android:layout_height="55dp" android:background="@drawable/rader" android:layout_width="70dp" android:id="@+id/bt6" android:layout_x="241dp" android:layout_y="412dp"></ImageButton>
+																																            <ImageButton android:layout_height="100dp" android:background="@drawable/g2" android:layout_width="100dp" android:id="@+id/bt4" android:layout_x="58dp" android:layout_y="391dp"></ImageButton>
+																																	            <ImageButton android:layout_height="60dp" android:background="@drawable/here" android:layout_width="60dp" android:id="@+id/bt3" android:layout_x="12dp" android:layout_y="412dp"></ImageButton>
 
 																																		    </AbsoluteLayout>

@@ -1,0 +1,13 @@
+<AbsoluteLayout 
+	android:id="@+id/AbsoluteLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:background="@drawable/cnnbizjongroinfo"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	
+    <ImageButton android:id="@+id/m1" android:background="@drawable/hbt" android:layout_height="40dp" android:layout_width="40dp" android:layout_x="242dp" android:layout_y="-5dp"></ImageButton>
+    <ImageButton android:id="@+id/m2" android:background="@drawable/leftarrow" android:layout_height="80dp" android:layout_width="150dp" android:layout_x="0dp" android:layout_y="455dp"></ImageButton>
+    <ImageButton android:id="@+id/b1" android:background="@drawable/rightarrow" android:layout_height="80dp" android:layout_width="150dp" android:layout_x="200dp" android:layout_y="457dp"></ImageButton>
+        <ImageButton android:id="@+id/b2" android:background="@drawable/rader" android:layout_height="30dp" android:layout_width="40dp" android:layout_x="136dp" android:layout_y="483dp"></ImageButton>
+</AbsoluteLayout>

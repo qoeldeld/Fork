@@ -1,0 +1,17 @@
+
+<AbsoluteLayout 
+	android:id="@+id/AbsoluteLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:background="@drawable/regionbackground"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<ImageButton android:id="@+id/m1" android:layout_height="40dp" android:background="@drawable/hbt" android:layout_width="40dp" android:layout_x="0dp" android:layout_y="-9dp"></ImageButton>
+	<ImageButton android:id="@+id/m2" android:layout_height="40dp" android:background="@drawable/rbt" android:layout_width="40dp" android:layout_x="34dp" android:layout_y="-8dp"></ImageButton>
+	<ImageButton android:id="@+id/b1" android:background="@drawable/seoul" android:layout_width="146dp" android:layout_x="0dp" android:layout_y="30dp" android:layout_height="74dp"></ImageButton>
+	<ImageButton android:id="@+id/b2" android:background="@drawable/kyungki" android:layout_height="74dp" android:layout_width="146dp" android:layout_x="0dp" android:layout_y="106dp"></ImageButton>
+	<ImageButton android:id="@+id/b3" android:background="@drawable/kangwon" android:layout_height="74dp" android:layout_width="146dp" android:layout_x="2dp" android:layout_y="177dp"></ImageButton>
+	<ImageButton android:id="@+id/b4" android:background="@drawable/kyungsang" android:layout_height="74dp" android:layout_width="146dp" android:layout_x="1dp" android:layout_y="252dp"></ImageButton>
+	<ImageButton android:id="@+id/b5" android:background="@drawable/chungcheong" android:layout_height="74dp" android:layout_width="146dp" android:layout_x="1dp" android:layout_y="398dp"></ImageButton>
+	<ImageButton android:id="@+id/b6" android:background="@drawable/jeonra" android:layout_height="74dp" android:layout_width="146dp" android:layout_x="0dp" android:layout_y="324dp"></ImageButton>
+</AbsoluteLayout>

@@ -1,0 +1,12 @@
+
+<AbsoluteLayout 
+	android:id="@+id/AbsoluteLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:background="@drawable/regionbackground"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<ImageButton android:id="@+id/m1" android:layout_height="40dp" android:background="@drawable/hbt" android:layout_width="40dp" android:layout_x="0dp" android:layout_y="-9dp"></ImageButton>
+	<ImageButton android:id="@+id/m2" android:layout_height="40dp" android:background="@drawable/rbt" android:layout_width="40dp" android:layout_x="34dp" android:layout_y="-8dp"></ImageButton>
+	<ImageButton android:id="@+id/b1" android:background="@drawable/tozkyomenu" android:layout_height="74dp" android:layout_x="0dp" android:layout_y="32dp" android:layout_width="match_parent"></ImageButton>
+</AbsoluteLayout>
