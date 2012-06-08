@@ -14,7 +14,7 @@ import android.widget.FrameLayout;
 public class video_sharing extends Activity {
     private WebView myWebView;
         
-	    final private String DEFAULT_URL = "http://menu.youtube.com";
+	    final private String DEFAULT_URL = "http://m.youtube.com";
 	        private static final FrameLayout.LayoutParams ZOOM_PARAMS = new FrameLayout.LayoutParams(
 		            ViewGroup.LayoutParams.FILL_PARENT,
 			                ViewGroup.LayoutParams.WRAP_CONTENT,
